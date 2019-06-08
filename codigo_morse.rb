@@ -16,3 +16,11 @@ def generate_hash(number)
      }
      h.values[number]
 end
+
+def to_morse
+  self.generate_hash(@number)
+  end
+end
+
+m = Morseable.new(4)
+puts m.to_morse
