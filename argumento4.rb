@@ -11,6 +11,3 @@ class Dog
     puts "#{@nombre} esta ladrando"
   end
 end
-
-perro = Dog.new(propiedades)
-perro.ladrar
